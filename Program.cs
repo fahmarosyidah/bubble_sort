@@ -78,6 +78,8 @@ namespace bubble_sort
 
             //Pemanggilan fungsi untuk menerima elemen array
             myList.read();
+            //Pemanggilan fungsi untuk mengurutkan array
+            myList.BubbleSortArray();
         }
     }
 }
