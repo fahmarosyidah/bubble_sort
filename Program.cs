@@ -10,6 +10,13 @@ namespace bubble_sort
         //Deklarasi variabel int untuk menyimpan banyaknya data pada array
         private int n;
 
+        //Fungsi atau method untuk menerima masukan
+        public void read()
+        {
+           
+        }
+
+
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
