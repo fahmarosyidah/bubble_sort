@@ -82,6 +82,9 @@ namespace bubble_sort
             myList.BubbleSortArray();
             //Pemanggilan fungsi untuk menampilkan array yang tersusun
             myList.display();
+            //Exit
+            Console.WriteLine("\n\nTekan Tombol Apa Saja Untuk Keluar.");
+            Console.Read();
         }
     }
 }
