@@ -75,6 +75,9 @@ namespace bubble_sort
         {
             //Creating the object of the BubbleSort class
             Program myList = new Program();
+
+            //Pemanggilan fungsi untuk menerima elemen array
+            myList.read();
         }
     }
 }
