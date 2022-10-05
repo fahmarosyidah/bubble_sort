@@ -28,8 +28,15 @@ namespace bubble_sort
             Console.WriteLine("---------------------------");
             Console.WriteLine("Masukkan elemen array ");
             Console.WriteLine("---------------------------");
-        }
 
+            //Pengguna memasukkan elemen pada array
+            for (int i = 0; i < n; i++)
+            {
+                Console.Write("<" + (i + 1) + " > ");
+                string s1 = Console.ReadLine();
+                a[i] = Int32.Parse(s1);
+            }
+        }
 
         static void Main(string[] args)
         {
