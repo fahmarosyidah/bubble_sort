@@ -73,7 +73,8 @@ namespace bubble_sort
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //Creating the object of the BubbleSort class
+            Program myList = new Program();
         }
     }
 }
